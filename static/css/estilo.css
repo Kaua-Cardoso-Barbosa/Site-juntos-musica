@@ -21,7 +21,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -36,6 +36,7 @@ body {
 
 header {
     padding: 20px 0px;
+    margin-top: 10px;
 }
 
 header nav a {
@@ -45,4 +46,49 @@ header nav a {
 
 header nav a {
     color: var(--cor-branco);
+}
+
+.baixar {
+    border-radius: 10px;
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+    padding: 15px;
+}
+
+.logo {
+    margin-top: 170px;
+    display: block;
+    justify-self: center;
+}
+
+h1 {
+    justify-self: center;
+    color: var(--cor-branco);
+    font-size: 70px;
+    margin: 25px 0px;
+}
+
+.slogan {
+    justify-self: center;
+    color: var(--cor-cinza);
+    font-size: 45px;
+    margin: 25px 0px;
+}
+
+.botao {
+    justify-self: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+}
+
+.planos {
+    color: var(--cor-branco);
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid var(--cor-branco);
+}
+
+.baixaragora {
+
 }
